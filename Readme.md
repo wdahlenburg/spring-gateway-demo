@@ -21,3 +21,12 @@ $ java -jar target/spring-gateway-demo-0.0.1-SNAPSHOT.jar
 ```
 
 The application should run be running on port 9000.
+
+### Docker
+
+```
+$ docker build -t spring-gateway-demo:latest .
+...
+
+$ docker run -p 9000:9000 spring-gateway-demo 
+```
